@@ -1,18 +1,18 @@
 {
-   "botToken":"",
-   "owner":"",
-   "shardCount":1,
+   "botToken": process.env.botToken,
+   "owner": process.env.owner,
+   "shardCount":process.env.shardCount,
    "shardNames":[
       "Clone DueUtil: shard 1"
    ],
-   "logChannel": "[serverid]/[channelid]",
-   "errorChannel": "[serverid]/[channelid]",
-   "feedbackChannel": "[serverid]/[channelid]",
-   "bugChannel": "[serverid]/[channelid]",
-   "announcementsChannel":"[serverid]/[channelid]",
+   "logChannel": "411250537938419722/412580557248004100",
+   "errorChannel": "411250537938419722/412580557248004100",
+   "feedbackChannel": "411250537938419722/412580557248004100",
+   "bugChannel": "411250537938419722/412580557248004100",
+   "announcementsChannel":"411250537938419722/412580557248004100",
    "carbonKey":"[https://www.carbonitex.net key you won't have]",
    "discordBotsOrgKey":"https://discordbots.org/ key you also won't have",
    "discordBotsKey": "https://bots.discord.pw/ key you also also won't have",
    "discoinKey":"http://discoin.sidetrip.xyz/ you will never get",
-   "sentryAuth": "sentry public dsc token"
+   "sentryAuth": "process.env.sentryAuth"
 }
